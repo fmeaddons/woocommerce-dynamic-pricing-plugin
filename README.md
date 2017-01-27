@@ -1,0 +1,1 @@
+# woocommerce-dynamic-pricing-plugin
