@@ -1,0 +1,123 @@
+.batches { width: 95%; float: left; background: #fff; padding: 10px; margin:10px 0;}
+
+.option-heading{background:#eee;width:86.3%;padding:8px;margin-top:2px;cursor:pointer; float: left;}
+.option-content{background:#fff;width:98%;padding:12px; float: left; display: none;}
+.arrow-up{width:15px;display:none; float: right; padding-top: 5px;}
+.arrow-down{width:15px;display:inline-block; float: right;  padding-top: 5px;}
+
+.option-heading h4{ margin: 0; padding: 0; float: left; width: auto;  padding-top: 5px;}
+.btt { float: right; width: auto; margin-top: 5px;}
+.btt2 { float: right; width: auto;}
+.button-danger { background-color: #d9534f !important; border-color: #d43f3a !important; color: #fff !important;}
+
+.addbatches { width: 95%; float: left; background: #fff; padding: 10px; margin:10px 0;}
+
+.optdata{ width: 100%; float: left; margin: 10px 0; }
+
+.optdataleft { width: 20%; float: left; padding-top: 6px;}
+.optdataright { width: 75%; float: left; margin-left: 5%; }
+
+.textoption{ display: none;}
+.imageoption{ display: none;}
+.otheroption{ display: none;}
+.product_selection{ display: none;}
+.customer_selection{ display: none;}
+
+.shopsizes{ width: 44%; margin-right: 5%; float:left; padding:20px 0;}
+
+.shopsizes .optdataleft{ width: 60%;}
+.shopsizes .optdataright{ width: 35%;}
+
+.select2-result-repository__avatar { float: left; margin-right: 10px;}
+.select2-result-repository__title{ float: left; margin-top: 14px;}
+.select2-results__option{ float: left; width: 98.1%;}
+.se{ width: 70% !important;}
+.select2-search__field { width: 100% !important;}
+
+.select2-results__option--highlighted[aria-selected]:hover {
+    background-color: #ddd;
+    color: #444;
+}
+
+.select2-container--default .select2-results__option[aria-selected="true"]:hover {
+	background-color: #ddd;
+    color: #444;
+}
+
+
+
+
+/*#load{
+    width:102.1%;
+    height:100%;
+    min-height: 230%;
+    position: absolute;
+    z-index:9999;
+    top:0;
+    left: -21px;
+    display: none;
+    background:url("../images/ajax-loader.gif") no-repeat center center rgba(0,0,0,0.25)
+}*/
+
+.succ{ padding: 10px !important; width: 92%;}
+
+.fmeinputfield { width: 70%; }
+
+.min_qty { width: 22%; float: left;}
+.max_qty { width: 22%; float: left;}
+.dis_type { width: 22%; float: left;}
+.dis_amount { width: 22%; float: left;}
+.qty_remove { width: 12%; float: left;}
+
+.op { width: 38%; float: left;}
+.va { width: 38%; float: left; margin-left: 4%;}
+.va2 { width: 38%; float: left; margin-left: 4%;}
+
+.select2-container--default .select2-results > .select2-results__options{ overflow-x: hidden !important; }
+
+#load{
+    width:102.1%;
+    height:100%;
+    min-height: 177%;
+    position: absolute;
+    z-index:9999;
+    top:0;
+    left: -21px;
+    display: none;
+    background:url("../../images/ajax-loader.gif") no-repeat center center rgba(0,0,0,0.25)
+}
+
+.clear{ clear:both;}
+
+.upgrade_block { width: auto; float: left; background-color:#FFF; padding:0px; padding-bottom:0px; text-align:center; }
+
+.upgrade_block .inner_top_container { width:auto; padding:25px; }
+
+.upgrade_block .inner_top_container .logo { width:6%; margin:0 auto; padding-bottom:10px; }
+
+.upgrade_block .inner_top_container .logo img { max-width:100%; height:auto; }
+
+.upgrade_block .inner_top_container h2{ font-family:Arial, Helvetica, sans-serif; font-size:29px; font-weight:normal; margin:0 0 10px 0;}
+
+.upgrade_block .inner_top_container h2 span{ color:#427fbe; font-weight:bold; }
+
+.upgrade_block .inner_top_container p { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666; line-height:22px; font-weight:normal; margin:0; padding:10px 0; padding-bottom:0px; width:70%; margin:0 auto;}
+
+.upgrade_block .buttonss { background:#e4e4e4; padding:20px 10px }
+
+.upgrade_block .buttonss a { font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:normal; color:#FFF; background-color:#427fbe; padding:8px 24px; text-decoration:none; font-weight: bold; text-transform:uppercase; border-radius:2px;}
+
+.upgrade_block .buttonss a:hover{ background-color:#3975b2;}
+
+
+/*responsive*/
+
+@media (min-width: 200px) and (max-width: 600px){
+.upgrade_block .inner_top_container .logo { width:20%; margin:0 auto; padding-bottom:10px; }
+.upgrade_block .inner_top_container h2 {font-size: 26px;}   
+.upgrade_block .inner_top_container p {width: 100%;}    
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+.upgrade_block .inner_top_container .logo { width:25%; margin:0 auto; padding-bottom:10px; }
+}

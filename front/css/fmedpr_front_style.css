@@ -1,0 +1,13 @@
+.qty_table { width: 100%; float: left;}
+.qty_table h2{ font-size: 16px; font-weight: bold; width: 100%;}
+.offer_ends { width: 100%; float: left; font-size: 12px;}
+.offer_table{ width: 100%; float: left; border: solid 1px #000; margin-top: 10px; }
+.qty_table_top { width: 100%; float: left;font-size: 12px;padding: 10px; background: #cfcfcf;  }
+.qty_table_bottom{ width: 100%; float: left;border-top: none; font-size: 12px; padding: 10px;}
+.pro_qty{ width: 35%; float: left; }
+.pro_offer{ width: 35%; float: left; }
+.pro_price{ width: 30%; float: left; }
+.odd{ background: #f2f2f2; }
+
+.sp_offer { width: 100%; float: left;}
+
